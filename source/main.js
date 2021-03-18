@@ -1,4 +1,4 @@
-import { Element } from './elements/element.js';
-import element from './templates/element.js';
+import { Menu } from './elements/menu.js';
+import menu from './templates/menu.js';
 
-Element.define('quantum-element', element);
+Menu.define('quantum-menu', menu);

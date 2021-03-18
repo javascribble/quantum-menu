@@ -1,5 +1,5 @@
 {
-    "name": "@javascribble/quantum-element",
+    "name": "@javascribble/quantum-menu",
     "description": "",
     "version": "0.0.0",
     "license": "MIT",
@@ -7,6 +7,7 @@
         "@javascribble/quantum": "^1.2.0"
     },
     "devDependencies": {
+        "@javascribble/rollup-quantum-build": "^1.1.1",
         "live-server": "*"
     },
     "scripts": {
@@ -14,13 +15,13 @@
         "postversion": "npm publish --access public"
     },
     "main": "./source/main.js",
-    "homepage": "https://github.com/javascribble/quantum-element#readme",
+    "homepage": "https://github.com/javascribble/quantum-menu#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/javascribble/quantum-element.git"
+        "url": "git+https://github.com/javascribble/quantum-menu.git"
     },
     "bugs": {
-        "url": "https://github.com/javascribble/quantum-element/issues"
+        "url": "https://github.com/javascribble/quantum-menu/issues"
     },
     "keywords": [
         "web",
@@ -28,7 +29,7 @@
         "quantum"
     ],
     "files": [
-        "bundle",
+        "build",
         "source"
     ]
 }

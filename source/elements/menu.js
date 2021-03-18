@@ -1,4 +1,4 @@
-export class Element extends Quantum {
+export class Menu extends Quantum {
     constructor() {
         super();
     }
