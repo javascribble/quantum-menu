@@ -2,3 +2,12 @@ body {
     visibility: hidden;
     margin: 0;
 }
+
+sample-container, quantum-menu > div {
+    background-color: lightgray;
+}
+
+div {
+    cursor: pointer;
+    padding: 0.7em 1em;
+}
