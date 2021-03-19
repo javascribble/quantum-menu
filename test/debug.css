@@ -3,8 +3,15 @@ body {
     margin: 0;
 }
 
-sample-container, quantum-menu > div {
+sample-container {
     background-color: lightgray;
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+quantum-menu > div {
+    background-color: white;
 }
 
 div {
