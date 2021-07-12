@@ -1,3 +1,5 @@
+import menu from '../templates/menu.js';
+
 export class Menu extends Quantum {
     #name = this.shadowRoot.querySelector('#name');
 
@@ -19,3 +21,5 @@ export class Menu extends Quantum {
         this.#name.innerText = currentValue;
     }
 }
+
+Menu.define('quantum-menu', menu);
